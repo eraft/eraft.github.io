@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "E-RAFT Lab",
+    "subtitle": "Tools to boost your productivity",
+    "languageLabel": "Language",
+    "darkModeToggle": "Dark Mode",
+    "myExtensions": "Extensions",
+    "installButton": "Add to Chrome",
+    "viewDetails": "View Details",
+    "closeButton": "Close",
+    "features": "Key Features",
+    "howToUse": "How to Use",
+    "supportedLanguages": "Supported Languages",
+    "privacy": "Privacy",
+    "version": "Version",
+    "category": "Category",
+    "languages": "Languages",
+    "watchDemo": "Watch Demo"
+  },
+  "extensions": {
+    "prompt-clipboard": {
+      "name": "Prompt Clipboard",
+      "tagline": "Save, organize, and auto-expand prompts and snippets on any webpage with simple commands",
+      "description": "A Chrome extension that lets you save, organize, and search prompts and snippets, copy them with one click, or auto-expand them on web pages by typing commands (e.g., /greeting).",
+      "features": [
+        "Save unlimited prompts and snippets",
+        "Organize by categories with fast search",
+        "Type /command in any input field to auto-expand",
+        "Works on Gmail, Slack, ChatGPT, and any website",
+        "Supports IME (Japanese input)",
+        "Dark/Light mode toggle",
+        "3 color schemes (Default, Blue, Orange)",
+        "Font size adjustment",
+        "17 language support",
+        "Export/Import in JSON format",
+        "Data stored locally (privacy protected)"
+      ],
+      "howToUse": [
+        "Install the extension",
+        "Open side panel and add prompts",
+        "Set commands (e.g., /greeting)",
+        "Type /greeting on any webpage to auto-expand"
+      ],
+      "privacy": "All data is stored in your browser and never sent to external servers.",
+      "supportedLanguages": "Japanese, English, Chinese (Simplified/Traditional), Korean, Spanish, French, German, Italian, Portuguese, Russian, Arabic, Hindi, Thai, Turkish, Vietnamese, Indonesian"
+    },
+    "extension-switch": {
+      "name": "Extension Switch",
+      "tagline": "Manage installed extensions with groups, toggle ON/OFF, and auto-switch by URL",
+      "description": "A Chrome extension manager that lets you organize installed extensions into groups, toggle them ON/OFF with one click, and automatically enable/disable them based on the current URL.",
+      "features": [
+        "Organize extensions into groups",
+        "Bulk ON/OFF toggle by group",
+        "Individual extension quick toggle",
+        "Auto ON/OFF by URL",
+        "Auto-enable extensions only on specific sites",
+        "Simple and intuitive UI",
+        "Dark/Light mode support",
+        "11 language support",
+        "Drag & drop to reorder"
+      ],
+      "howToUse": [
+        "Install the extension",
+        "Open popup and create groups",
+        "Drag & drop extensions into groups",
+        "Toggle ON/OFF by group or individually",
+        "Set URL-based auto-switching rules"
+      ],
+      "privacy": "Only extension management data is stored locally in your browser. No external communication.",
+      "supportedLanguages": "Japanese, English, Spanish, French, German, Hindi, Chinese (Simplified/Traditional), Arabic, Korean, Thai"
+    }
+  },
+  "categories": {
+    "tools": "Tools",
+    "workflow": "Workflow"
+  }
+}

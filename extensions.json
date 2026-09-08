@@ -1,0 +1,40 @@
+[
+  {
+    "id": "prompt-clipboard",
+    "name": "Prompt Clipboard",
+    "version": "1.1.0",
+    "chromeWebStoreId": "glcdlmkihdakmdhiblifkgedoajckjjk",
+    "chromeWebStoreUrl": "https://chromewebstore.google.com/detail/glcdlmkihdakmdhiblifkgedoajckjjk",
+    "icon": "images/prompt-clipboard-icon.png",
+    "screenshot": {
+      "en": "images/prompt-clipboard-en.png",
+      "ja": "images/prompt-clipboard-ja.png"
+    },
+    "video": {
+      "en": "https://www.youtube.com/embed/TmdNqslwWqE",
+      "ja": "https://www.youtube.com/embed/FTTBeh4xB90"
+    },
+    "category": "tools",
+    "languages": 17,
+    "featured": true
+  },
+  {
+    "id": "extension-switch",
+    "name": "Extension Switch",
+    "version": "1.0.0",
+    "chromeWebStoreId": "hnfleafhddmaachkdclfmlfhlaiijhpd",
+    "chromeWebStoreUrl": "https://chromewebstore.google.com/detail/hnfleafhddmaachkdclfmlfhlaiijhpd",
+    "icon": "images/extension-switch-icon.png",
+    "screenshot": {
+      "en": "images/extension-switch-en.png",
+      "ja": "images/extension-switch-ja.png"
+    },
+    "video": {
+      "en": "https://www.youtube.com/embed/_eSuiAyx2SQ",
+      "ja": "https://www.youtube.com/embed/4un8Zn12tCw"
+    },
+    "category": "workflow",
+    "languages": 11,
+    "featured": true
+  }
+]

@@ -637,6 +637,7 @@ body {
 
     .modal-title {
         font-size: 20px;
+        margin-bottom: 0;
     }
 
     .modal-meta {

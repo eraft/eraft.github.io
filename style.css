@@ -574,6 +574,13 @@ body {
     font-size: 14px;
 }
 
+.footer-contact {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-top: 4px;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
     .header-content {

@@ -15,7 +15,8 @@
     "version": "バージョン",
     "category": "カテゴリー",
     "languages": "言語対応",
-    "watchDemo": "デモ動画を見る"
+    "watchDemo": "デモ動画を見る",
+    "footerContact": "運営: E-RAFT ｜ お問い合わせ: info@e-raft.net"
   },
   "extensions": {
     "prompt-clipboard": {

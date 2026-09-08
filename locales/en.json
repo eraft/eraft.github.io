@@ -15,7 +15,8 @@
     "version": "Version",
     "category": "Category",
     "languages": "Languages",
-    "watchDemo": "Watch Demo"
+    "watchDemo": "Watch Demo",
+    "footerContact": "Operator: E-RAFT | Contact: info@e-raft.net"
   },
   "extensions": {
     "prompt-clipboard": {

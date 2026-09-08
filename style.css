@@ -28,13 +28,13 @@
 }
 
 [data-theme="dark"] {
-    --bg-primary: #1a1a1a;
-    --bg-secondary: #2a2a2a;
-    --bg-card: #2a2a2a;
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-card: #1e293b;
     --text-primary: #f5f5f5;
     --text-secondary: #d0d0d0;
     --text-muted: #a0a0a0;
-    --border: #404040;
+    --border: #334155;
     --shadow: rgba(0, 0, 0, 0.3);
     --shadow-hover: rgba(0, 0, 0, 0.5);
 
@@ -57,6 +57,18 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
+}
+
+[data-theme="dark"] .language-select {
+    background: var(--bg-primary);
+}
+
+[data-theme="dark"] .icon-button {
+    background: var(--bg-primary);
+}
+
+[data-theme="dark"] .icon-button:hover {
+    background: var(--bg-secondary);
 }
 
 /* ===== Reset & Base ===== */

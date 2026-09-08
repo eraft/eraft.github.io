@@ -21,7 +21,7 @@
   {
     "id": "extension-switch",
     "name": "Extension Switch",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "chromeWebStoreId": "hnfleafhddmaachkdclfmlfhlaiijhpd",
     "chromeWebStoreUrl": "https://chromewebstore.google.com/detail/hnfleafhddmaachkdclfmlfhlaiijhpd",
     "icon": "images/extension-switch-icon.png",
@@ -34,7 +34,7 @@
       "ja": "https://www.youtube.com/embed/4un8Zn12tCw"
     },
     "category": "workflow",
-    "languages": 11,
+    "languages": 17,
     "featured": true
   }
 ]

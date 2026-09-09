@@ -16,7 +16,49 @@
     },
     "category": "tools",
     "languages": 17,
-    "featured": true
+    "featured": true,
+    "changelog": {
+      "ja": [
+        {
+          "version": "1.1.0",
+          "date": "2024-09-09",
+          "changes": [
+            "プロンプトにタイトルを設定できる機能を追加",
+            "フォントサイズを変更できるようになりました",
+            "3つのカラーテーマ（デフォルト、ブルー、オレンジ）を追加",
+            "JSON形式でデータをインポート・エクスポートできる機能を追加",
+            "多言語対応を17言語に拡張"
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-08-15",
+          "changes": [
+            "初回リリース"
+          ]
+        }
+      ],
+      "en": [
+        {
+          "version": "1.1.0",
+          "date": "2024-09-09",
+          "changes": [
+            "Added ability to set titles for prompts",
+            "Font size adjustment feature added",
+            "Added 3 color themes (Default, Blue, Orange)",
+            "JSON import/export feature added",
+            "Expanded language support to 17 languages"
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-08-15",
+          "changes": [
+            "Initial release"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "extension-switch",
@@ -35,6 +77,60 @@
     },
     "category": "workflow",
     "languages": 17,
-    "featured": true
+    "featured": true,
+    "changelog": {
+      "ja": [
+        {
+          "version": "1.1.0",
+          "date": "2024-09-09",
+          "changes": [
+            "拡張機能名をクリックすると拡張機能管理ページへ直接ジャンプできる機能を追加",
+            "JSONでインポート・エクスポート機能を追加",
+            "対応言語を17言語に拡張"
+          ]
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-09-01",
+          "changes": [
+            "macOS環境での表示を最適化",
+            "高解像度ディスプレイでのアイコン表示を改善"
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-08-15",
+          "changes": [
+            "初回リリース"
+          ]
+        }
+      ],
+      "en": [
+        {
+          "version": "1.1.0",
+          "date": "2024-09-09",
+          "changes": [
+            "Click extension name to jump directly to extension management page",
+            "JSON import/export feature added",
+            "Expanded language support to 17 languages"
+          ]
+        },
+        {
+          "version": "1.0.1",
+          "date": "2024-09-01",
+          "changes": [
+            "Optimized display for macOS",
+            "Improved icon display on high-resolution displays"
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "date": "2024-08-15",
+          "changes": [
+            "Initial release"
+          ]
+        }
+      ]
+    }
   }
 ]

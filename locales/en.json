@@ -16,6 +16,9 @@
     "category": "Category",
     "languages": "Languages",
     "watchDemo": "Watch Demo",
+    "changelog": "Changelog",
+    "changelogDescription": "View version history and changes",
+    "changelogPageSubtitle": "Changelog",
     "footerContact": "Operator: E-RAFT | Contact: info@e-raft.net"
   },
   "extensions": {
@@ -28,7 +31,6 @@
         "Organize by categories with fast search",
         "Type /command in any input field to auto-expand",
         "Works on Gmail, Slack, ChatGPT, and any website",
-        "Supports IME (Japanese input)",
         "Dark/Light mode toggle",
         "3 color schemes (Default, Blue, Orange)",
         "Font size adjustment",
@@ -54,7 +56,6 @@
         "Bulk ON/OFF toggle by group",
         "Individual extension quick toggle",
         "Auto ON/OFF by URL",
-        "Auto-enable extensions only on specific sites",
         "Simple and intuitive UI",
         "Dark/Light mode support",
         "11 language support",

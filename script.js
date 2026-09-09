@@ -266,6 +266,27 @@ function openModal(extension) {
         installButton.href = extension.chromeWebStoreUrl;
     }
 
+    // Update changelog
+    const changelogSection = document.getElementById('changelog-section');
+    const changelogPageLink = document.getElementById('changelog-page-link');
+
+    if (extension.changelog) {
+        // Check if changelog exists for any language
+        const hasChangelog = (extension.changelog.ja && extension.changelog.ja.length > 0) ||
+                            (extension.changelog.en && extension.changelog.en.length > 0) ||
+                            (Array.isArray(extension.changelog) && extension.changelog.length > 0);
+
+        if (hasChangelog) {
+            // Setup changelog page link
+            changelogPageLink.href = `changelog-${extension.id}.html`;
+            changelogSection.style.display = 'block';
+        } else {
+            changelogSection.style.display = 'none';
+        }
+    } else {
+        changelogSection.style.display = 'none';
+    }
+
     // Show modal
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';

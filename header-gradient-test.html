@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ヘッダーグラデーション比較</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1a1a1a;
+        }
+
+        .gradient-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .gradient-sample {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .gradient-header {
+            padding: 24px;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #d5d5d5;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gradient-info {
+            background: white;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .gradient-name {
+            font-weight: 600;
+            font-size: 14px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .gradient-colors {
+            font-size: 12px;
+            color: #7a7a7a;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Gradient patterns */
+        .gradient-1 {
+            background: linear-gradient(135deg, rgba(241, 250, 238, 0.8), rgba(168, 218, 220, 0.8));
+        }
+
+        .gradient-2 {
+            background: linear-gradient(135deg, rgba(168, 218, 220, 0.8), rgba(241, 250, 238, 0.8));
+        }
+
+        .gradient-3 {
+            background: linear-gradient(135deg, rgba(228, 241, 238, 0.8), rgba(168, 218, 220, 0.8));
+        }
+
+        .gradient-4 {
+            background: linear-gradient(135deg, rgba(168, 218, 220, 0.8), rgba(228, 241, 238, 0.8));
+        }
+
+        .gradient-5 {
+            background: linear-gradient(135deg, rgba(226, 236, 233, 0.8), rgba(241, 250, 238, 0.8));
+        }
+
+        .gradient-6 {
+            background: linear-gradient(135deg, rgba(228, 241, 238, 0.8), rgba(202, 255, 191, 0.8));
+        }
+
+        .gradient-7 {
+            background: linear-gradient(135deg, rgba(168, 218, 220, 0.9), rgba(241, 250, 238, 0.9));
+        }
+
+        .gradient-8 {
+            background: linear-gradient(135deg, rgba(200, 235, 237, 0.8), rgba(241, 250, 238, 0.8));
+        }
+
+        .gradient-9 {
+            background: linear-gradient(90deg, rgba(241, 250, 238, 0.8), rgba(168, 218, 220, 0.8));
+        }
+
+        .gradient-10 {
+            background: linear-gradient(180deg, rgba(241, 250, 238, 0.8), rgba(168, 218, 220, 0.8));
+        }
+
+        .logo-sample {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ヘッダーグラデーション比較</h1>
+
+        <div class="gradient-grid">
+            <!-- Pattern 1 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-1">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 1（現在）</div>
+                    <div class="gradient-colors">#F1FAEE → #A8DADC<br>135deg</div>
+                </div>
+            </div>
+
+            <!-- Pattern 2 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-2">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 2（逆方向）</div>
+                    <div class="gradient-colors">#A8DADC → #F1FAEE<br>135deg</div>
+                </div>
+            </div>
+
+            <!-- Pattern 3 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-3">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 3</div>
+                    <div class="gradient-colors">#E4F1EE → #A8DADC<br>135deg</div>
+                </div>
+            </div>
+
+            <!-- Pattern 4 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-4">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 4</div>
+                    <div class="gradient-colors">#A8DADC → #E4F1EE<br>135deg</div>
+                </div>
+            </div>
+
+            <!-- Pattern 5 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-5">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 5</div>
+                    <div class="gradient-colors">#E2ECE9 → #F1FAEE<br>135deg</div>
+                </div>
+            </div>
+
+            <!-- Pattern 6 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-6">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 6</div>
+                    <div class="gradient-colors">#E4F1EE → #CAFFBF<br>135deg</div>
+                </div>
+            </div>
+
+            <!-- Pattern 7 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-7">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 7（濃いめ）</div>
+                    <div class="gradient-colors">#A8DADC → #F1FAEE<br>135deg / 90%透過</div>
+                </div>
+            </div>
+
+            <!-- Pattern 8 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-8">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 8（中間色）</div>
+                    <div class="gradient-colors">#C8EBED → #F1FAEE<br>135deg</div>
+                </div>
+            </div>
+
+            <!-- Pattern 9 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-9">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 9（横方向）</div>
+                    <div class="gradient-colors">#F1FAEE → #A8DADC<br>90deg（左→右）</div>
+                </div>
+            </div>
+
+            <!-- Pattern 10 -->
+            <div class="gradient-sample">
+                <div class="gradient-header gradient-10">
+                    <div class="logo-sample">E-RAFT Lab</div>
+                </div>
+                <div class="gradient-info">
+                    <div class="gradient-name">パターン 10（縦方向）</div>
+                    <div class="gradient-colors">#F1FAEE → #A8DADC<br>180deg（上→下）</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

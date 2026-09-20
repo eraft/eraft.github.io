@@ -2,7 +2,7 @@
   {
     "id": "prompt-clipboard",
     "name": "Prompt Clipboard",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "chromeWebStoreId": "glcdlmkihdakmdhiblifkgedoajckjjk",
     "chromeWebStoreUrl": "https://chromewebstore.google.com/detail/glcdlmkihdakmdhiblifkgedoajckjjk",
     "icon": "images/prompt-clipboard-icon.png",
@@ -19,6 +19,18 @@
     "featured": true,
     "changelog": {
       "ja": [
+        {
+          "version": "1.2.0",
+          "date": "2026-09-20",
+          "changes": [
+            "お気に入り機能を追加（カードのブックマークアイコンでワンクリック登録、専用タブで一覧表示）",
+            "カテゴリーをドラッグ&ドロップで並び替えできるように",
+            "プロンプトにアイコン画像を設定できる機能を追加（任意）",
+            "カテゴリー選択にドロップダウンを追加",
+            "カラースキームの配色を調整",
+            "データインポート時の安定性を改善"
+          ]
+        },
         {
           "version": "1.1.0",
           "date": "2024-09-09",
@@ -39,6 +51,18 @@
         }
       ],
       "en": [
+        {
+          "version": "1.2.0",
+          "date": "2026-09-20",
+          "changes": [
+            "Added favorites: bookmark a prompt with one click and view them in a dedicated tab",
+            "Categories can now be reordered via drag and drop",
+            "Added optional icon images for prompts",
+            "Added a dropdown for selecting categories",
+            "Refined color scheme palettes",
+            "Improved stability when importing data"
+          ]
+        },
         {
           "version": "1.1.0",
           "date": "2024-09-09",
@@ -63,7 +87,7 @@
   {
     "id": "extension-switch",
     "name": "Extension Switch",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "chromeWebStoreId": "hnfleafhddmaachkdclfmlfhlaiijhpd",
     "chromeWebStoreUrl": "https://chromewebstore.google.com/detail/hnfleafhddmaachkdclfmlfhlaiijhpd",
     "icon": "images/extension-switch-icon.png",

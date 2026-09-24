@@ -105,6 +105,26 @@
     "changelog": {
       "ja": [
         {
+          "version": "1.2.1",
+          "date": "2026-09-20",
+          "changes": [
+            "対応言語を17言語に拡張(インドネシア語・イタリア語・ポルトガル語・ロシア語・トルコ語・ベトナム語を追加)",
+            "拡張機能をグループヘッダーへドラッグ&ドロップして別グループへ移動できるように",
+            "設定画面下部に「Buy me a coffee」リンクを追加",
+            "設定画面の「Data」セクション(エクスポート/インポート機能)の未翻訳箇所を修正"
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-09-20",
+          "changes": [
+            "拡張機能一覧の検索を拡張。グループ名だけでなく、所属する拡張機能名でも検索できるように(「未分類」グループも対象)",
+            "新しく検出された拡張機能に「NEW」バッジを表示(初回検出から7日間)",
+            "グループをたたんだ際、URL連動設定パネルも一緒にたたまれるように修正",
+            "個別のURL設定画面(オプションページ)を廃止し、ポップアップ内の設定画面に統合"
+          ]
+        },
+        {
           "version": "1.1.0",
           "date": "2024-09-09",
           "changes": [
@@ -130,6 +150,26 @@
         }
       ],
       "en": [
+        {
+          "version": "1.2.1",
+          "date": "2026-09-20",
+          "changes": [
+            "Expanded language support to 17 languages (added Indonesian, Italian, Portuguese, Russian, Turkish, and Vietnamese)",
+            "Extensions can now be moved to another group by dragging them onto a group header",
+            "Added a \"Buy me a coffee\" link to the settings screen",
+            "Fixed missing translations in the settings \"Data\" section (export/import)"
+          ]
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-09-20",
+          "changes": [
+            "Extended extension search to also match extension names, not just group names (including the \"Uncategorized\" group)",
+            "Added a \"NEW\" badge for newly detected extensions (shown for 7 days)",
+            "Fixed group collapsing so the URL-binding panel now collapses together with the group",
+            "Removed the separate URL settings (options) page and merged it into the in-popup settings screen"
+          ]
+        },
         {
           "version": "1.1.0",
           "date": "2024-09-09",

@@ -34,7 +34,7 @@ function updateCopyrightYear() {
 // ===== Data Loading =====
 async function loadExtensionsData() {
     try {
-        const response = await fetch('extensions.json');
+        const response = await fetch('extensions.json', { cache: 'no-cache' });
         extensionsData = await response.json();
     } catch (error) {
         console.error('Failed to load extensions data:', error);
@@ -45,7 +45,7 @@ async function loadExtensionsData() {
 async function loadTranslations() {
     try {
         const promises = SUPPORTED_LANGUAGES.map(async (lang) => {
-            const response = await fetch(`locales/${lang}.json`);
+            const response = await fetch(`locales/${lang}.json`, { cache: 'no-cache' });
             const data = await response.json();
             translations[lang] = data;
         });

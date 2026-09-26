@@ -70,6 +70,36 @@
       ],
       "privacy": "Only extension management data is stored locally in your browser. No external communication.",
       "supportedLanguages": "Japanese, English, Spanish, French, German, Hindi, Chinese (Simplified/Traditional), Arabic, Korean, Thai"
+    },
+    "tab-window-controller": {
+      "name": "Tab & Window Controller",
+      "tagline": "Open your go-to pages in a split-screen layout and restore your usual workspace with one click",
+      "description": "A Chrome extension that opens multiple pages arranged in a split-screen layout of your choice (2-pane, 3-pane, or 4-pane). Assign an open tab or a URL to each pane and apply — each pane opens as its own window, positioned and sized on screen. Save the combination as a layout and bring your whole workspace back with a single click.",
+      "features": [
+        "Choose from 2-pane (horizontal/vertical), 3-pane, or 4-pane layouts",
+        "Flip left/right (or top/bottom) with the reverse button",
+        "Fill each pane from your open tabs, or type a URL directly",
+        "Add up to 5 pages per pane (they open as tabs in the same window)",
+        "Save up to 5 of your most-used combinations as layouts",
+        "Apply a saved layout with one click; reorder by drag and drop",
+        "Move a window by hand and its position and size are remembered automatically",
+        "Choose the split method: all new windows, or reuse the current window for the first pane",
+        "Light / dark mode",
+        "Three font sizes (Medium / Large / Extra Large)",
+        "55 languages, including right-to-left layouts",
+        "JSON export / import",
+        "All data stored locally (privacy-friendly)"
+      ],
+      "howToUse": [
+        "Install the extension",
+        "Open the popup from the toolbar icon",
+        "Pick a layout: 2-pane, 3-pane, or 4-pane",
+        "Choose an open tab for each pane, or enter a URL",
+        "Press Apply and the windows open together in the split layout",
+        "Save it, and restore the same setup with one click next time"
+      ],
+      "privacy": "Saved layouts and settings are stored entirely in your own browser and are never sent to any external server. The extension does not access page content.",
+      "supportedLanguages": "55 languages (Japanese, English, Chinese (Simplified/Traditional), Korean, Spanish, French, German, Italian, Portuguese, Russian, Arabic, Hebrew, Hindi, Bengali, Tamil, Thai, Turkish, Vietnamese, Indonesian, and more)"
     }
   },
   "categories": {

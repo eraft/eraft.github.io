@@ -283,6 +283,7 @@ body {
 .card-title {
     font-size: 20px;
     font-weight: 600;
+    line-height: 1.25;
     margin-bottom: 4px;
     color: var(--text-primary);
 }

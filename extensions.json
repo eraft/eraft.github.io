@@ -196,5 +196,44 @@
         }
       ]
     }
+  },
+  {
+    "id": "tab-window-controller",
+    "name": "Tab & Window Controller",
+    "version": "1.0",
+    "chromeWebStoreId": "amecgaoiidfcodkfeidbjgpcegjledob",
+    "chromeWebStoreUrl": "https://chromewebstore.google.com/detail/amecgaoiidfcodkfeidbjgpcegjledob",
+    "icon": "images/tab-window-controller-icon.png",
+    "screenshot": {
+      "en": "images/tab-window-controller-en.png",
+      "ja": "images/tab-window-controller-ja.png"
+    },
+    "video": {
+      "en": "https://www.youtube.com/embed/dKLmatjD2_w",
+      "ja": "https://www.youtube.com/embed/bY1VIneXzps"
+    },
+    "category": "workflow",
+    "languages": 55,
+    "featured": true,
+    "changelog": {
+      "ja": [
+        {
+          "version": "1.0",
+          "date": "2026-09-25",
+          "changes": [
+            "初回リリース"
+          ]
+        }
+      ],
+      "en": [
+        {
+          "version": "1.0",
+          "date": "2026-09-25",
+          "changes": [
+            "Initial release"
+          ]
+        }
+      ]
+    }
   }
 ]
